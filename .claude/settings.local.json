@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"c:/Users/Aurelien/Documents/jarvis_x_mvp/.claude/skills/new-increment\")",
+      "Bash(mkdir -p \"c:/Users/Aurelien/Documents/jarvis_x_mvp/.claude/skills/website-intake\")",
+      "Bash(.venv/Scripts/pip show:*)",
+      "Bash(.venv/Scripts/python -c \"import anthropic; print\\(anthropic.__version__\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import anthropic; print\\(anthropic.__version__\\)\")",
+      "Bash(pip --version)",
+      "Bash(python -c \"import anthropic; print\\('OK', anthropic.__version__\\)\")",
+      "Bash(echo \"exit: $?\")",
+      "Bash(pip list:*)",
+      "Read(//tmp/**)",
+      "Bash(\"c:/Users/Aurelien/Documents/jarvis_x_mvp/.venv/Scripts/python.exe\" -m pip install anthropic)",
+      "Bash(.venv/Scripts/python.exe -c ':*)",
+      "Bash(.venv/Scripts/python.exe -m pip install requests)",
+      "Bash(.venv/Scripts/python.exe -m pip install openai)",
+      "Bash(.venv/Scripts/python.exe -c \"from jarvis_x_mvp.core.llm_client import LLMClient; c = LLMClient\\(\\); print\\(c.generate\\('Dis bonjour en une phrase courte'\\)\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"from jarvis_x_mvp.core.llm_client import LLMClient; c = LLMClient\\(\\); r = c.generate\\('Dis bonjour sans emoji'\\); print\\(r\\)\")",
+      "Bash(../.venv/Scripts/python.exe -c ':*)",
+      "Bash(find \"c:/Users/Aurelien/Documents/jarvis_x_mvp/jarvis_x_mvp\" -name \"*.pyc\" -delete)",
+      "Bash(find \"c:/Users/Aurelien/Documents/jarvis_x_mvp/jarvis_x_mvp\" -name \"__pycache__\" -type d -exec rm -rf {} +)"
+    ]
+  }
+}
